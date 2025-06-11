@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Jump Detection Chrome Dino Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .instructions {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .game-container {
+            margin: 20px auto;
+            max-width: 900px;
+        }
+        .instruction-list {
+            list-style: none;
+            padding: 0;
+        }
+        .instruction-list li {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🦕 Camera Jump Detection Chrome Dino Game</h1>
+        <p>Jump in real life to make the dinosaur jump!</p>
+    </div>
+    
+    <div class="instructions">
+        <h2>How to Play:</h2>
+        <ul class="instruction-list">
+            <li><strong>🎥 Camera Permission:</strong> Allow camera access when prompted</li>
+            <li><strong>👤 Position Yourself:</strong> Stand in front of your camera so your full body is visible</li>
+            <li><strong>🎮 Start Game:</strong> Click anywhere in the game area to start</li>
+            <li><strong>🦘 Jump:</strong> Jump in real life to make the dinosaur jump over obstacles</li>
+            <li><strong>⚙️ Adjust Sensitivity:</strong> Use the slider in the camera window to adjust jump sensitivity</li>
+            <li><strong>🔄 Restart:</strong> Refresh the page to restart the game</li>
+        </ul>
+        
+        <div class="warning">
+            <strong>⚠️ Note:</strong> This game requires camera access to detect your movements. Your camera feed is processed locally and not transmitted anywhere.
+        </div>
+    </div>
+    
+    <div class="game-container" id="root">
+        <!-- React app will be mounted here -->
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -9,8 +9,9 @@
     "test": "node scripts/test.js"
   },
   "license": "MIT",
-  "dependencies": {},
-  "homepage" : "https://github.com/0xbsec/react-chrome-dino",
+  "dependencies": {
+  },
+  "homepage": "https://github.com/0xbsec/react-chrome-dino",
   "devDependencies": {
     "@babel/core": "7.6.0",
     "@svgr/webpack": "4.3.2",
@@ -137,6 +138,8 @@
     ]
   },
   "keywords": [
-    "game", "chrome", "dinosaur"
+    "game",
+    "chrome",
+    "dinosaur"
   ]
 }
