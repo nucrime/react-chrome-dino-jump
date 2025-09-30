@@ -34,7 +34,6 @@ class ChromeDinoComponent extends React.Component {
     console.log('simulateJump called');
     
     if (typeof window !== 'undefined' && window.Runner && window.Runner.instance_) {
-      const runner = window.Runner.instance_;
       console.log('Runner instance found, triggering jump');
       
       // Simulate keydown event for spacebar (keyCode 32)
