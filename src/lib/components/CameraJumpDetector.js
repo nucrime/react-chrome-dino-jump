@@ -131,7 +131,7 @@ const CameraJumpDetector = ({ onJump, isGameActive }) => {
     }
     
     return false;
-  }, [jumpThreshold, onJump, setCurrentMotion]);
+  }, [jumpThreshold, onJump]);
 
   // Motion detection loop
   useEffect(() => {
